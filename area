@@ -1,0 +1,25 @@
+/*
+Name:james ngugi
+Reg.no:CT101/G/26469/25
+Desciption: to calculate the surface of a cylinder
+*/
+#include<stdio.h>
+int main()
+{
+    float pie,radius,height,area;
+    
+    printf("enter pie:");
+    scanf("%f",&pie);
+    
+      printf("\nenter radius:");
+    scanf("%f",&radius);
+    
+      printf("\nenter height:");
+    scanf("%f",&height);
+    
+    area=(2*pie*radius*radius)+(2*pie*radius*height);
+    
+    printf("surface area of the cylinder in cm %.2f",area);
+    
+    return 0;
+}

@@ -1,0 +1,23 @@
+
+/*
+Name:James ngugi
+Date:12/09/2025
+Reg.No CT101/G/24649/25.
+*/
+#include <stdio.h>
+
+int main()
+{
+    printf("my name is james ngugi.Here is my units\n");
+    printf("Fundamental of ict\n");
+    printf("introduction to computer archtecture\n");
+    printf("descrete mathmatics\n");
+    printf("mathmatics for science\n");
+    printf("Analogue electronics\n");
+    printf("introduction to computer programming\n");
+    printf("communication and information literacy skills\n");
+    printf("physics");
+    
+
+ return 0;
+}

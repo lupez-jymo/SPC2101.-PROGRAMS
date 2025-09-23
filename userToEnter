@@ -1,0 +1,24 @@
+// Online C compiler to run C program online
+/*Name:James Ngugi
+Date:15/09/2025
+Reg No:CT101/G/26469/25
+Description:To program the user to enter
+*/
+
+#include <stdio.h>
+
+int main()
+{
+    int height,bankbalance,phonenumber;
+    printf("enter height:");
+    scanf("%d",&height);
+    
+     printf("enter bankbalance:\n");
+    scanf("%d",&height);
+    
+    printf("enter phonenumber:");
+    scanf("%d",&phonenumber);
+
+
+    return 0;
+}

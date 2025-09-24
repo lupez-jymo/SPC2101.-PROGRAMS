@@ -1,0 +1,9 @@
+age = int(input("Enter Your age: "))
+annual_income = int(input("Enter annual salary: "))
+
+qualifies = age >= 21 and annual_income >= 21000
+
+if qualifies:
+    print("Congratulations! You qualify for a loan.")
+else:
+    print("Unfortunately, we are unable to offer you a loan at this time!")

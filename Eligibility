@@ -1,0 +1,26 @@
+/*
+Name:james ngugi
+Reg no:CTC101/G/26469/25
+Description:To check the eligibility of final exams
+*/
+#include <stdio.h>
+
+int main() {
+    float attendance, average;
+
+    // Input from user
+    printf("Enter attendance percentage: ");
+    scanf("%f", &attendance);
+
+    printf("Enter average marks: ");
+    scanf("%f", &average);
+
+    // Check eligibility
+    if (attendance >= 75 && average >= 40) {
+        printf("Eligible\n");
+    } else {
+        printf("Not eligible\n");
+    }
+
+return 0;
+}

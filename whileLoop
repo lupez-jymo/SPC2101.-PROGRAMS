@@ -1,0 +1,31 @@
+/*
+Name:James ngugi
+Reg no:CT101/G/26469/25.
+Description:for  while loop
+*/
+#include <stdio.h>
+
+int main() {
+    float balance, amount;
+
+    // Ask user to enter initial balance
+    printf("Enter your account balance: ");
+    scanf("%f", &balance);
+
+    // Continue as long as balance is greater than 0
+    while (balance > 0) {
+        printf("\nEnter amount to withdraw: ");
+        scanf("%f", &amount);
+
+        balance -= amount;  // subtract withdrawal from balance
+
+        printf("Remaining balance: %.2f\n", balance);
+
+        // Check if balance is zero or negative
+        if (balance <= 0) {
+            printf("\nYour balance is zero or insufficient. Transaction stopped.\n");
+        }
+    }
+
+return 0;
+}
